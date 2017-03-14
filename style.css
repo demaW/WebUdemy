@@ -1,0 +1,60 @@
+body {
+    background-color: #cccccc
+}
+
+table.beerTable {
+  width: 100%;
+}
+table.beerTable td{
+  text-align: left;
+  padding-left: 40px;
+}
+
+
+ul.navmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333
+}
+
+div.imgSection{
+  float: left;
+  padding-right: 50px;
+}
+
+.clear-float{
+  clear: both;
+}
+div.infoSection{
+  float: left;
+}
+div.beerEntity{
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-style: dashed;
+    border-radius: 3px;
+    border-width: thin;
+    border-color: rgb(22, 61, 112);
+    font-family: 'Kurale', serif;
+}
+
+li.nav a:hover {
+    background-color: #111;
+}
+
+h1 {
+    font-size: 24px;
+    font-family: 'Andika', sans-serif;
+}

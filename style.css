@@ -1,15 +1,15 @@
-body {
+body.beer {
     background-color: #cccccc
 }
 
 table.beerTable {
-  width: 100%;
-}
-table.beerTable td{
-  text-align: left;
-  padding-left: 40px;
+    width: 100%;
 }
 
+table.beerTable td {
+    text-align: left;
+    padding-left: 40px;
+}
 
 ul.navmenu {
     list-style-type: none;
@@ -19,19 +19,20 @@ ul.navmenu {
     background-color: #333
 }
 
-div.imgSection{
-  float: left;
-  padding-right: 50px;
+div.imgSection {
+    float: left;
+    padding-right: 50px;
 }
 
-.clear-float{
-  clear: both;
+.clear-float {
+    clear: both;
 }
-div.infoSection{
-  float: left;
+
+div.infoSection {
+    float: left;
 }
-div.beerEntity{
-}
+
+div.beerEntity {}
 
 li.nav {
     float: left;
@@ -57,4 +58,65 @@ li.nav a:hover {
 h1 {
     font-size: 24px;
     font-family: 'Andika', sans-serif;
+}
+
+div.topbbcmenu {
+    width: 1100px;
+    height: 40px;
+    margin: auto;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul.bbcnavmenu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+li.bbcnavli-first {
+    display: inline-block;
+}
+
+li.bbcnavli {
+    border-left: 1px Solid #E9E9E9;
+    display: inline-block;
+}
+
+li.bbcnavli-search {
+    padding: 15px;
+    border-left: 1px Solid #E9E9E9;
+    display: inline-block;
+}
+
+img#signinimg {
+    width: 20px;
+    display: inline-block;
+    float: left;
+    padding: 15px;
+}
+
+img#bbclogo {
+    height: 30px;
+    margin: 5px;
+    float: left;
+    display: inline-block;
+    image-orientation: center;
+}
+
+a.mnubbcnav {
+    padding: 15px;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Helvetica, Arial, sans-serif;
+    color: black;
+}
+
+input.bbcsearch{
+  border: none;
+  background-color: #E9E9E9;
+  float: left;
+  display: inline-block;
 }
